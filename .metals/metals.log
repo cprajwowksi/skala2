@@ -4658,3 +4658,669 @@ INFO: Unsupported notification method: $/setTrace
 2023.04.13 21:11:41 WARN  no build target for: /home/pra/skala1/scalalab04/src/main/scala/Zad_03.scala[0m
 2023.04.13 21:11:42 WARN  no build target for: /home/pra/skala1/scalalab04/src/main/scala/Zad_02.scala[0m
 2023.04.13 21:11:43 WARN  no build target for: /home/pra/skala1/scalalab04/src/main/scala/Zad_03.scala[0m
+2023.04.13 21:12:54 WARN  no build target for: /home/pra/skala1/scalalab06/src/main/scala/Zad_01.scala[0m
+2023.04.13 21:12:55 WARN  no build target for: /home/pra/skala1/scalalab06/src/main/scala/Zad_02.scala[0m
+2023.04.13 21:12:56 WARN  no build target for: /home/pra/skala1/scalalab06/src/main/scala/Zad_01.scala[0m
+2023.04.13 21:13:02 WARN  no build target for: /home/pra/skala1/scalalab06/src/main/scala/Zad_03.scala[0m
+2023.04.13 21:13:07 WARN  no build target for: /home/pra/skala1/scalalab07/src/main/scala/zadanie z listami.scala[0m
+2023.04.13 21:13:11 WARN  no build target for: /home/pra/skala1/scalalab07/src/main/scala/zadanie.scala[0m
+2023.04.13 21:13:15 WARN  no build target for: /home/pra/skala1/scalalab07/src/main/scala/zadaniezlistaminewapproach.scala[0m
+2023.04.13 21:13:17 WARN  no build target for: /home/pra/skala1/scalalab07/src/main/scala/zadanie z listami.scala[0m
+2023.04.13 21:13:21 WARN  no build target for: /home/pra/skala1/scalalab07/src/main/scala/zadaniezlistaminewapproach.scala[0m
+2023.04.13 21:13:23 INFO  Shutting down server[0m
+2023.04.13 21:13:23 INFO  shutting down Metals[0m
+2023.04.13 21:13:23 INFO  Exiting server[0m
+2023.04.13 21:15:50 INFO  Started: Metals version 0.11.11 in workspace '/home/pra/skala1' for client Visual Studio Code 1.77.3.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/pra/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.13 21:15:51 INFO  time: initialize in 0.59s[0m
+2023.04.13 21:15:51 WARN  Build server is not auto-connectable.[0m
+2023.04.13 21:18:12 WARN  no build target for: /home/pra/skala1/scalalab07/src/main/scala/zadaniezlistaminewapproach.scala[0m
+2023.04.13 21:18:14 INFO  no build target found for /home/pra/skala1/scalalab07/src/main/scala/zadaniezlistaminewapproach.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.04.13 21:18:16 INFO  time: code lens generation in 2.83s[0m
+2023.04.13 21:20:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.04.13 21:21:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:21:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:24:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:24:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:24:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:24:52 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:24:57 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:25:00 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:25:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:26:46 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:26:50 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:26:52 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:26:54 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:26:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:27:07 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:27:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:27:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:27:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:28:05 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:28:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:28:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:30:37 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:30:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:30:44 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:30:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:30:57 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:30:58 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:46 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:31:56 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:35 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:38 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:46 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:32:59 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:33:03 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:33:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:33:56 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:34:06 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:34:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:34:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot.scala[0m
+2023.04.13 21:34:54 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:02 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:04 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:32 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:37 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:47 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:49 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:35:50 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:36:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:36:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:36:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:36:15 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:36:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:05 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:07 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:11 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:11 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:12 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:38 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:45 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:54 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:37:54 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:38:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:38:57 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:39:00 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:39:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:39:03 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:39:16 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:40:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:40:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:40:12 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:40:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:11 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:15 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:22 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:24 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:41:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:06 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:26 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:45 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:50 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:42:53 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:43:07 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:43:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:43:15 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:43:58 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:44:04 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:44:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:44:12 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:44:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:44:24 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:44:25 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+Apr 13, 2023 9:44:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:3160)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy72$1(TypeComparer.scala:3180)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:3181)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4846)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4855)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2852)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2862)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:3020)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4855)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4804)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4378)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:88)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4379)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4384)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:149)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:149)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:149)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1937)
+	at dotty.tools.dotc.core.TrackingTypeComparer.redux$1(TypeComparer.scala:3129)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:3134)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:3147)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy72$1(TypeComparer.scala:3180)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:3181)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4846)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4855)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2852)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2862)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:3020)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4855)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4804)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4378)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:88)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4379)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4384)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:149)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:149)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:149)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1937)
+	at dotty.tools.dotc.core.TrackingTypeComparer.redux$1(TypeComparer.scala:3129)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:3134)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:3147)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy72$1(TypeComparer.scala:3180)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:3181)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4846)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4855)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2852)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2862)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:3020)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4855)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4804)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4378)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:88)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4379)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4384)
+	at dotty.tools.dotc.core.Types$AppliedType.translucentSuperType(Types.scala:4357)
+	at dotty.tools.dotc.core.TypeErasure.dotty$tools$dotc$core$TypeErasure$$sigName(TypeErasure.scala:844)
+	at dotty.tools.dotc.core.TypeErasure$.sigName(TypeErasure.scala:204)
+	at dotty.tools.dotc.core.Signature$.apply(Signature.scala:167)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3678)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3699)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3674)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3699)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:615)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:605)
+	at dotty.tools.dotc.core.Symbols$Symbol.signature(Symbols.scala:195)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addOverloadIdx$1(SemanticdbSymbols.scala:123)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:144)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:148)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:86)
+	at scala.meta.internal.mtags.MtagsEnrichments$.toSemanticdbSymbol$1(MtagsEnrichments.scala:183)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:184)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:164)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:168)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:185)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:334)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:186)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:189)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:194)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:197)
+	at scala.meta.internal.pc.printer.MetalsPrinter.hoverSymbol(MetalsPrinter.scala:102)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:102)
+
+Apr 13, 2023 9:44:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: NoType
+java.lang.AssertionError: assertion failed: NoType
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.core.Types$TypeBounds.<init>(Types.scala:5058)
+	at dotty.tools.dotc.core.Types$AliasingBounds.<init>(Types.scala:5137)
+	at dotty.tools.dotc.core.Types$TypeAlias.<init>(Types.scala:5159)
+	at dotty.tools.dotc.core.Types$TypeAlias$.apply(Types.scala:5192)
+	at dotty.tools.dotc.core.Types$Type.bounds(Types.scala:1730)
+	at scala.meta.internal.pc.completions.CaseKeywordCompletion$.contribute(MatchCaseCompletions.scala:163)
+	at scala.meta.internal.pc.completions.Completions.advancedCompletions(Completions.scala:438)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:189)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:86)
+
+2023.04.13 21:44:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+Apr 13, 2023 9:44:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2670
+2023.04.13 21:44:36 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:45:47 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:45:52 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:45:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:45:56 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:46:04 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:46:06 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:46:06 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:46:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:46:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:46:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+Apr 13, 2023 9:46:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: NoType
+java.lang.AssertionError: assertion failed: NoType
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.core.Types$TypeBounds.<init>(Types.scala:5058)
+	at dotty.tools.dotc.core.Types$AliasingBounds.<init>(Types.scala:5137)
+	at dotty.tools.dotc.core.Types$TypeAlias.<init>(Types.scala:5159)
+	at dotty.tools.dotc.core.Types$TypeAlias$.apply(Types.scala:5192)
+	at dotty.tools.dotc.core.Types$Type.bounds(Types.scala:1730)
+	at scala.meta.internal.pc.completions.CaseKeywordCompletion$.contribute(MatchCaseCompletions.scala:163)
+	at scala.meta.internal.pc.completions.Completions.advancedCompletions(Completions.scala:438)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:189)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:86)
+
+2023.04.13 21:46:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:46:54 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:11 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:15 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:26 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:47:51 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:00 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:02 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:03 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:11 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:12 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:48:57 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:49:04 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:49:05 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:49:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:49:44 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:49:51 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:02 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:11 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:14 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:15 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:22 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:37 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:37 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:46 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:50:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:51:25 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:52:00 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:52:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:52:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:52:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot2.scala[0m
+2023.04.13 21:57:59 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:58:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:58:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:58:46 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:58:50 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:58:51 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:58:58 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:59:02 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:59:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:59:14 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:59:16 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 21:59:25 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:01:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:01:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Apr 13, 2023 10:01:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4120
+2023.04.13 22:01:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:01:29 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:01:30 WARN  Using indexes to guess the definition of Pracownik[0m
+2023.04.13 22:02:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:35 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:52 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:02:59 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:00 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:18 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:18 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:27 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:34 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:35 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:38 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:03:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:04:36 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:04:38 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:04:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:04:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:04:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:04:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:04:56 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:05:06 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:05:16 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:05:25 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:05:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:05:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:06:05 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:06:06 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:06:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:06:37 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:06:54 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:06:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:06:58 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:00 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:04 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:07 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:12 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:14 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:35 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Apr 13, 2023 10:07:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5305
+2023.04.13 22:07:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:44 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:46 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:07:57 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:06 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:11 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:16 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:22 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:24 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:29 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Apr 13, 2023 10:08:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5606
+2023.04.13 22:08:32 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:36 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:45 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:52 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:08:54 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:07 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:14 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:24 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:30 WARN  Using indexes to guess the definition of kreatywnosc[0m
+2023.04.13 22:09:30 WARN  Using indexes to guess the definition of kreatywnosc[0m
+2023.04.13 22:09:32 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:34 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:34 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:34 WARN  Using indexes to guess the definition of pracaZespolowa[0m
+Apr 13, 2023 10:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6033
+2023.04.13 22:09:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:51 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:53 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:09:56 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:10:35 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:10:38 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:10:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:10:47 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:10:49 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:10:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:10:59 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:11:02 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:11:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:11:50 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:11:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:11:58 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:11 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:15 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:27 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:32 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:34 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:12:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:13:18 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:13:36 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:03 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:05 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:07 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:16 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:18 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:21 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:22 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:29 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:32 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:14:59 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:01 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:02 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:14 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:18 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:26 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:34 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:36 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:49 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:53 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:56 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:15:57 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Apr 13, 2023 10:15:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7147
+2023.04.13 22:16:02 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:05 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:07 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:12 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:21 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:25 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:38 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Exception in thread "pool-3-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Apr 13, 2023 10:16:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7477
+2023.04.13 22:16:47 WARN  Using indexes to guess the definition of kreatywnosc[0m
+2023.04.13 22:16:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:50 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:16:53 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:28 WARN  Using indexes to guess the definition of sredniaPracaZespolowa[0m
+2023.04.13 22:17:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:34 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:35 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:37 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:38 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:49 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:17:49 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:18:51 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:18:57 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:18:59 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:19:03 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:19:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:19:15 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:19:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:19:29 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:19:32 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:19:52 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:00 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:03 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:08 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:14 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:15 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:22 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:26 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:33 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:49 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:20:57 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:21:12 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:21:14 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:21:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:21:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:21:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:22:37 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:22:39 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:22:41 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:22:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:23:03 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:23:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:23:16 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:23:16 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:23:32 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Apr 13, 2023 10:23:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: NoType
+java.lang.AssertionError: assertion failed: NoType
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.core.Types$TypeBounds.<init>(Types.scala:5058)
+	at dotty.tools.dotc.core.Types$AliasingBounds.<init>(Types.scala:5137)
+	at dotty.tools.dotc.core.Types$TypeAlias.<init>(Types.scala:5159)
+	at dotty.tools.dotc.core.Types$TypeAlias$.apply(Types.scala:5192)
+	at dotty.tools.dotc.core.Types$Type.bounds(Types.scala:1730)
+	at scala.meta.internal.pc.completions.CaseKeywordCompletion$.contribute(MatchCaseCompletions.scala:163)
+	at scala.meta.internal.pc.completions.Completions.advancedCompletions(Completions.scala:438)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:189)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:86)
+
+Apr 13, 2023 10:23:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8648
+2023.04.13 22:23:38 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:23:46 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:13 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:16 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:23 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:26 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:28 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:34 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:24:58 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:25:02 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Apr 13, 2023 10:25:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:96)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.04.13 22:25:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:25:21 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:25:26 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Apr 13, 2023 10:25:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9075
+2023.04.13 22:25:31 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:25:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:25:50 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:25:52 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:25:55 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:25:58 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:09 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:19 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:37 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:40 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:42 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:43 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:48 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:26:50 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:27:00 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:27:05 WARN  Using indexes to guess the definition of Wynik1[0m
+2023.04.13 22:27:05 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:27:07 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:27:10 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:27:36 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:28:17 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:28:20 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:28:29 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+2023.04.13 22:28:30 WARN  no build target for: /home/pra/skala1/scalakolos/src/main/scala/zad_bot3.scala.scala[0m
+Apr 13, 2023 10:28:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
