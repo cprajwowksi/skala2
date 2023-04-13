@@ -4646,3 +4646,15 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.04.13 21:07:51 INFO  time: code lens generation in 2.29s[0m
 Apr 13, 2023 9:08:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.04.13 21:10:31 WARN  no build target for: /home/pra/skala1/scalalab05/src/main/scala/zad_01.scala[0m
+2023.04.13 21:10:31 WARN  no build target for: /home/pra/skala1/scalalab05/src/main/scala/zad_02.scala[0m
+Apr 13, 2023 9:10:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.13 21:11:23 WARN  no build target for: /home/pra/skala1/scalalab06/src/main/scala/Zad_01.scala[0m
+2023.04.13 21:11:24 WARN  no build target for: /home/pra/skala1/scalalab06/src/main/scala/Zad_02.scala[0m
+2023.04.13 21:11:25 WARN  no build target for: /home/pra/skala1/scalalab06/src/main/scala/Zad_03.scala[0m
+2023.04.13 21:11:40 WARN  no build target for: /home/pra/skala1/scalalab04/src/main/scala/Zad_01.scala[0m
+2023.04.13 21:11:41 WARN  no build target for: /home/pra/skala1/scalalab04/src/main/scala/Zad_02.scala[0m
+2023.04.13 21:11:41 WARN  no build target for: /home/pra/skala1/scalalab04/src/main/scala/Zad_03.scala[0m
+2023.04.13 21:11:42 WARN  no build target for: /home/pra/skala1/scalalab04/src/main/scala/Zad_02.scala[0m
+2023.04.13 21:11:43 WARN  no build target for: /home/pra/skala1/scalalab04/src/main/scala/Zad_03.scala[0m
