@@ -1,0 +1,97 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(7bcf7967-568a-4d24-b9a8-223a21269bea), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/pra/skala1/laboratorium_13/target/scala-3.2.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/pra/skala1/laboratorium_13/src/main/scala/model/Organizator.scala:53:48 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m        [33mval[0m [36mgrupa[0m = context.actorOf(Props(Grupa(doFinaluKoniec)), [31m"Finałowa"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Found:    (doFinaluKoniec : [0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    List[[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      Comparable[?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      ][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     & Serializable][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Required: List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Tree:    53|doFinaluKoniec[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m I tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   (doFinaluKoniec : [0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   List[[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     Comparable[?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     ][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    & Serializable][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m conforms to[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m but the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   ==> (doFinaluKoniec :    List[     Comparable[?        >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String     ]    & Serializable] )  <:  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       ==> glb(<notype>, <notype>)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       <== glb(<notype>, <notype>) = <notype>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       ==> Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       <== Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     ==> List[   Comparable[?      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String   ]  & Serializable]  <:  List[akka.actor.ActorRef] (left is approximated)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         ==> glb(<notype>, <notype>)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         <== glb(<notype>, <notype>) = <notype>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         ==> Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         <== Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     <== List[   Comparable[?      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String   ]  & Serializable]  <:  List[akka.actor.ActorRef] (left is approximated) = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   <== (doFinaluKoniec :    List[     Comparable[?        >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String     ]    & Serializable] )  <:  List[akka.actor.ActorRef] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mTree:    53|doFinaluKoniec[0m
+[0m[[0m[31merror[0m] [0m[0mI tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m  (doFinaluKoniec : [0m
+[0m[[0m[31merror[0m] [0m[0m  List[[0m
+[0m[[0m[31merror[0m] [0m[0m    Comparable[?[0m
+[0m[[0m[31merror[0m] [0m[0m       >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String[0m
+[0m[[0m[31merror[0m] [0m[0m    ][0m
+[0m[[0m[31merror[0m] [0m[0m   & Serializable][0m
+[0m[[0m[31merror[0m] [0m[0m)[0m
+[0m[[0m[31merror[0m] [0m[0mconforms to[0m
+[0m[[0m[31merror[0m] [0m[0m  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0mbut the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  ==> (doFinaluKoniec :    List[     Comparable[?        >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String     ]    & Serializable] )  <:  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m    ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m      ==> glb(<notype>, <notype>)[0m
+[0m[[0m[31merror[0m] [0m[0m      <== glb(<notype>, <notype>) = <notype>[0m
+[0m[[0m[31merror[0m] [0m[0m      ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m      <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m      ==> Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m      <== Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m    <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m    ==> List[   Comparable[?      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String   ]  & Serializable]  <:  List[akka.actor.ActorRef] (left is approximated)[0m
+[0m[[0m[31merror[0m] [0m[0m      ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m        ==> glb(<notype>, <notype>)[0m
+[0m[[0m[31merror[0m] [0m[0m        <== glb(<notype>, <notype>) = <notype>[0m
+[0m[[0m[31merror[0m] [0m[0m        ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m        <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m        ==> Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m        <== Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m      <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m    <== List[   Comparable[?      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String   ]  & Serializable]  <:  List[akka.actor.ActorRef] (left is approximated) = false[0m
+[0m[[0m[31merror[0m] [0m[0m  <== (doFinaluKoniec :    List[     Comparable[?        >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String     ]    & Serializable] )  <:  List[akka.actor.ActorRef] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jun 5, 2023 9:38:22 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

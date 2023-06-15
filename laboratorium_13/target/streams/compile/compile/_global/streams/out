@@ -1,0 +1,64 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/pra/skala1/laboratorium_13/src/main/scala/model/Organizator.scala:53:51 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m        [33mval[0m [36mwylot[0m: [35mList[0m[[35mActorRef[0m] = doFinaluKoniec.toList[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                    ^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Found:    List[[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      Comparable[?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      ][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     & Serializable][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Required: List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Tree:    53|doFinaluKoniec.toList[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m I tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   List[[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   Comparable[?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   ][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  & Serializable][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m conforms to[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m but the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   ==> List[   Comparable[?      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String   ]  & Serializable]  <:  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       ==> glb(<notype>, <notype>)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       <== glb(<notype>, <notype>) = <notype>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       ==> Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       <== Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   <== List[   Comparable[?      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String   ]  & Serializable]  <:  List[akka.actor.ActorRef] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mTree:    53|doFinaluKoniec.toList[0m
+[0m[[0m[31merror[0m] [0m[0mI tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m  List[[0m
+[0m[[0m[31merror[0m] [0m[0m  Comparable[?[0m
+[0m[[0m[31merror[0m] [0m[0m     >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String[0m
+[0m[[0m[31merror[0m] [0m[0m  ][0m
+[0m[[0m[31merror[0m] [0m[0m & Serializable][0m
+[0m[[0m[31merror[0m] [0m[0mconforms to[0m
+[0m[[0m[31merror[0m] [0m[0m  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0mbut the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  ==> List[   Comparable[?      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String   ]  & Serializable]  <:  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m    ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m      ==> glb(<notype>, <notype>)[0m
+[0m[[0m[31merror[0m] [0m[0m      <== glb(<notype>, <notype>) = <notype>[0m
+[0m[[0m[31merror[0m] [0m[0m      ==> Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m      <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ]  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m      ==> Serializable  <:  akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m      <== Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m    <== Comparable[?    >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String ] & Serializable  <:  akka.actor.ActorRef = false[0m
+[0m[[0m[31merror[0m] [0m[0m  <== List[   Comparable[?      >: akka.actor.ActorRef & String <: akka.actor.ActorRef | String   ]  & Serializable]  <:  List[akka.actor.ActorRef] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

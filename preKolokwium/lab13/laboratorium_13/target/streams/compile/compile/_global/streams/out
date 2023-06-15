@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/pra/skala1/preKolokwium/lab13/laboratorium_13/src/main/scala/model/Organizator.scala:78:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m78 |[0m          .map((a, b) => [31ms"[0m$b[31m. [0m${a._keys}[31m z oceną [0m${a.values}[31m"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                 ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue _keys is not a member of Map[String, jp1.akka.lab13.model.Ocena] - did you mean a.keys?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,27 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/pra/skala1/scalalab12/src/main/scala/model/Utl.scala:8:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33mimport[0m faker._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m         ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m         Not found: faker[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |-----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m The identifier for `faker` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m That can happen, for example, if `faker` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   -----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `faker` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `faker` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/pra/skala1/scalalab12/src/main/scala/model/Utl.scala:7:13 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m  [33mimport[0m org.scalacheck.rng.Seed[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m         value scalacheck is not a member of org[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/pra/skala1/scalalab12/src/main/scala/model/Utl.scala:16:15 -----[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m  [33mimport[0m scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m         ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         import prefix is not a pure expression[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

@@ -1,0 +1,52 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(2cb5efda-2c93-4b40-978f-f0a9e4cb669b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 8 Scala sources to /home/pra/skala1/scalalab12/target/scala-3.2.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/pra/skala1/scalalab12/src/main/scala/Main.scala:9:40 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m    [33mval[0m [36mleonardo[0m = system.actorOf(Props[[35mMovieStar[0m](), [31m"leonardo"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                        ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                        Not found: type MovieStar[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |-----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m The identifier for `type MovieStar` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m That can happen, for example, if `MovieStar` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   -----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `type MovieStar` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `MovieStar` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/pra/skala1/scalalab12/src/main/scala/model/Utl.scala:8:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33mimport[0m faker._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m         ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m         Not found: faker[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |-----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m The identifier for `faker` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m That can happen, for example, if `faker` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   -----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `faker` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `faker` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/pra/skala1/scalalab12/src/main/scala/model/Utl.scala:7:13 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m  [33mimport[0m org.scalacheck.rng.Seed[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m         value scalacheck is not a member of org[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/pra/skala1/scalalab12/src/main/scala/model/Utl.scala:16:15 -----[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m  [33mimport[0m scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m         ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         import prefix is not a pure expression[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed May 30, 2023 9:30:12 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,21 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E029] Pattern Match Exhaustivity Error: /home/pra/skala1/preKolokwium/laboratorium_13v2/src/main/scala/model/Organizator.scala:91:47 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m                                [33mval[0m [36mfajniev2[0m = y [33mmatch[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                               ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                 [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                 It would fail on pattern case: List((_, _), _, _*), Nil[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m There are several ways to make the match exhaustive:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  - Add missing cases as shown in the warning[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  - If an extractor always return Some(...), write Some[[35mX[0m] for its return type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  - Add a [33mcase[0m _ => ... at the end to match all remaining cases[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThere are several ways to make the match exhaustive:[0m
+[0m[[0m[31merror[0m] [0m[0m - Add missing cases as shown in the warning[0m
+[0m[[0m[31merror[0m] [0m[0m - If an extractor always return Some(...), write Some[[35mX[0m] for its return type[0m
+[0m[[0m[31merror[0m] [0m[0m - Add a [33mcase[0m _ => ... at the end to match all remaining cases[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

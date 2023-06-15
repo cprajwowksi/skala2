@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/pra/skala1/preKolokwium/lab12-prekolokwium/src/main/scala/lab12v2.scala:14:31 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m                context.system.termiate()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                ^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue termiate is not a member of akka.actor.ActorSystem - did you mean ActorSystem.terminate?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

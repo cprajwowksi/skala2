@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/pra/skala1/preKolokwium/laboratorium_14/src/main/scala/Bitwa.scala:54:42 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m54 |[0m    [33mcase[0m Strzał => [33mif[0m (sender().path.name === [31m"zamekA"[0m){[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                       ^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           value === is not a member of String - did you mean String.==?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

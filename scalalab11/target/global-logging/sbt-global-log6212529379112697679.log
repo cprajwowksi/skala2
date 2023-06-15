@@ -1,0 +1,34 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(7d86660e-3a59-43a0-8b40-2d544a7eefb9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/pra/skala1/scalalab11/target/scala-3.2.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E050] Type Error: /home/pra/skala1/scalalab11/src/main/scala/Main.scala:38:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m        self() ! Wynik(n2+[31m1[0m, fib2+fib)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m        ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        [33mvalue[0m [35mself[0m in [33mtrait[0m [35mActor[0m does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m You have specified more parameter lists than defined in the method definition(s).[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mYou have specified more parameter lists than defined in the method definition(s).[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E129] Potential Issue Error: /home/pra/skala1/scalalab11/src/main/scala/Main.scala:44:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m44 |[0m      Wynik[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mA pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The pure expression    44|Wynik doesn't have any side effect and its result is not assigned elsewhere.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m It can be removed without changing the semantics of the program. This may indicate an error.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe pure expression    44|Wynik doesn't have any side effect and its result is not assigned elsewhere.[0m
+[0m[[0m[31merror[0m] [0m[0mIt can be removed without changing the semantics of the program. This may indicate an error.[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed May 28, 2023 11:38:56 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

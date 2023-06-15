@@ -1,0 +1,60 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(db878f65-ca53-45f9-ba30-b68547c71aba), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/pra/skala1/scalalab11/target/scala-3.2.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E107] Syntax Error: /home/pra/skala1/scalalab11/src/main/scala/Main.scala:25:12 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m25 |[0m  [33mcase[0m Wynik(n) =>                        [0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mWrong number of argument patterns for    25|Wynik; expected: (Int, BigInt)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The Unapply method of    25|Wynik was used with incorrect number of arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Expected usage would be something like:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m case    25|Wynik(_, _) => ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m where subsequent arguments would have following types: (Int, BigInt).[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe Unapply method of    25|Wynik was used with incorrect number of arguments.[0m
+[0m[[0m[31merror[0m] [0m[0mExpected usage would be something like:[0m
+[0m[[0m[31merror[0m] [0m[0mcase    25|Wynik(_, _) => ...[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mwhere subsequent arguments would have following types: (Int, BigInt).[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E050] Type Error: /home/pra/skala1/scalalab11/src/main/scala/Main.scala:40:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m40 |[0m        self() ! Wynik(n2+[31m1[0m, fib2+fib)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m        ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        [33mvalue[0m [35mself[0m in [33mtrait[0m [35mActor[0m does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m You have specified more parameter lists than defined in the method definition(s).[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mYou have specified more parameter lists than defined in the method definition(s).[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/pra/skala1/scalalab11/src/main/scala/Main.scala:41:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m41 |[0m        context.become(wracam)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                       ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                       Not found: wracam[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `wracam` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `wracam` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `wracam` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `wracam` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed May 28, 2023 11:41:16 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
